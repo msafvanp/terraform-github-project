@@ -41,6 +41,7 @@ ingress {
 }
   tags = {
     Name = "${var.project_name}-${var.project_env}-frontend"
+	owner = "safvan"
   }
 }
 
